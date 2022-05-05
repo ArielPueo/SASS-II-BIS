@@ -1,0 +1,138 @@
+/*
+---->Estilado del NavBar<-----
+*/
+/*
+body{
+    font-family: 'Bebas Neue', cursive;
+}
+
+
+---->Tipografías (pasado a sass)<-----
+*/
+/*
+h1 {
+    font-size: 100px;
+    line-height: 60px;
+    font-weight: 600;
+    margin: 0;
+    padding-top: 50px;
+
+}
+
+h2   {
+    font-size: 30px;
+    font-family: 'Rokkitt', serif;
+    margin: 0;
+    padding: 0;
+
+}
+p {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    
+}
+*/
+/*
+---->Fondo, texto, y anomaciones del NavBar (pasado a sass)<-----
+*/
+
+/*
+.navbar .nav-item {
+    margin: 0 !important;
+    padding: 0 !important;
+    
+}
+
+.navbar .nav-item .nav-link {
+
+    font-size: 35px;
+    margin: 5px 5px;
+    padding: 0;
+    line-height: 80%;
+    transition: all .5s ease-in-out;
+    
+}
+
+.navbar .nav-item .nav-link:hover {
+    color: #43b5a0;
+}
+
+.navbar .main-btn {
+
+    background-color: #43b5a0;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    padding: 10px 20px;
+    border-radius: 3px;
+    margin-left: 35px;
+
+
+}
+
+.navbar .main-btn:hover {
+
+    background-color: white;
+    transition: all .9s ease-in-out;
+    
+
+
+}
+*/
+
+
+
+/*
+---->Estilado de la seccion principal<-----
+*/
+
+.hero {
+    
+    background-color: rgba(67, 181, 160, 0.2);
+}
+
+/*
+---->Estilado del botón de iniciado de sesión (se paso al sass)<-----
+*/
+/*
+.btn-ingresar {
+    background-color: #43b5a0;
+    border: 0;
+
+}
+
+.btn-ingresar:hover {
+    background-color: black;
+    transition: all .5s ease-in-out;
+}
+*/
+
+/*Acá comienza la sección de links (pasado a sass)*/
+/*
+.about{
+    padding: 100px 0px;
+}
+
+.about .about-box {
+    text-align: center;
+    padding: 0 40px;
+}
+*/
+/*Acá comienza la sección del footer*/
+
+footer {
+    padding: 25px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+/*Estilado de la página "qué es la Historia?" y la "historia de leonardo da vinci" tomando la clase card*/
+
+.card {
+    margin: 50px;
+}
+
+.margin-contact {
+    margin: 50px;
+}

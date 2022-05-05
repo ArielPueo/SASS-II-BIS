@@ -1,0 +1,21 @@
+.navbar {
+    .nav-item{
+        margin: 0 !important;
+        padding: 0 !important;
+        .nav-link{
+            font-size: 35px;
+            margin: 5px 5px;
+            padding: 0;
+            line-height: 80%;
+            transition: all .5s ease-in-out;
+             &:hover{
+                color: #43b5a0; 
+             }
+        }
+    }
+    .main-btn:hover{
+        background-color: white;
+        transition: all .9s ease-in-out; 
+
+    }
+}

@@ -1,0 +1,86 @@
+body {
+  font-family: "Bebas Neue", cursive;
+}
+
+h1 {
+  font-size: 100px;
+  line-height: 60px;
+  font-weight: 600;
+  margin: 0;
+  padding-top: 50px;
+}
+
+h2 {
+  font-size: 30px;
+  font-family: "Rokkitt", serif;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+.navbar .nav-item {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.navbar .nav-item .nav-link {
+  font-size: 35px;
+  margin: 5px 5px;
+  padding: 0;
+  line-height: 80%;
+  transition: all 0.5s ease-in-out;
+}
+.navbar .nav-item .nav-link:hover {
+  color: #43b5a0;
+}
+.navbar .main-btn:hover {
+  background-color: white;
+  transition: all 0.9s ease-in-out;
+}
+
+.btn-ingresar {
+  background-color: #43b5a0;
+  border: 0;
+}
+.btn-ingresar:hover {
+  background-color: black;
+  transition: all 0.5s ease-in-out;
+}
+
+.about {
+  padding: 100px 0px;
+}
+.about .about-box, .about .about-box2 {
+  text-align: center;
+  padding: 0 40px;
+}
+.about .about-box2 {
+  background-color: #491d88;
+  color: white;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.boxprueba {
+  height: auto;
+  width: auto;
+  padding: 100px;
+  background-color: #fa448c;
+}
+.boxprueba .boxpruebatext {
+  text-align: center;
+  color: #fec859;
+}
+
+.ensayogetmap {
+  background-color: #491d88;
+  text-align: center;
+  padding: 1rem;
+  font-size: 35px;
+}
+
+/*# sourceMappingURL=destino.css.map */

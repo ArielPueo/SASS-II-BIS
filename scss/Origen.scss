@@ -1,0 +1,54 @@
+@import "variables";
+@import "tipografias";
+@import "navbar";
+@import "button";
+
+
+
+.about {
+    padding: 100px 0px;
+    .about-box{
+        text-align: center;
+        padding: 0 40px;
+
+    }
+    .about-box2{
+        @extend .about-box;
+        background-color: #491d88;
+        color: white;
+        border-radius: 5px;
+        padding: 15px;
+    }
+}
+
+@mixin tamaniocaja ($alt, $anc, $pad, $bgcolor) {
+    height: $alt;
+    width: $anc;
+    padding: $pad;
+    background-color: $bgcolor;
+    
+}
+
+.boxprueba  {
+    @include tamaniocaja (auto, auto, 100px, $colorbg1);
+    .boxpruebatext {
+        text-align: center;
+        color: $colortxt1;
+    }
+}
+
+$estilotxtprueba: (
+
+        colorin: #491d88,
+        centro: center,
+        tFuente: 35px,
+        padd: 1rem
+
+);
+
+.ensayogetmap {
+    background-color: map-get($estilotxtprueba, colorin);
+    text-align: map-get($estilotxtprueba, centro);
+    padding: map-get($estilotxtprueba, padd);
+    font-size: map-get($estilotxtprueba, tFuente);
+}
